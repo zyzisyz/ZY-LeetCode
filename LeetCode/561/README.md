@@ -41,7 +41,8 @@ Note:
 对数组排序，每最小的两个为一组
 
 ## C++
-``
+
+```
 class Solution {
 public:
    int arrayPairSum(vector<int>& nums) {
@@ -52,4 +53,4 @@ public:
         return sum;
     }
 };
-``
+```
