@@ -39,3 +39,17 @@ Note:
 ## 思路
 
 对数组排序，每最小的两个为一组
+
+## C++
+``
+class Solution {
+public:
+   int arrayPairSum(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+        int sum = 0;
+        for(int i = 0; i < nums.size(); i += 2) 
+            sum += nums[i];
+        return sum;
+    }
+};
+``
