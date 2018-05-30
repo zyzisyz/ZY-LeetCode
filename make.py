@@ -4,10 +4,12 @@
 
 import requests
 import os
+from bs4 import BeautifulSoup
 
-# url使用leetcode中国
+# url
 Leetcode_CN_Url = "https://leetcode-cn.com/problemset/all/"
 Leetcode_Url = "https://leetcode.com/problemset/all/"
+MyGithub_Url="https://github.com/zyzisyz/ZY-LeetCode/blob/master/LeetCode/"
 
 # 爬取题目
 def GetProblem(num,url):
