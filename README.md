@@ -5,9 +5,11 @@
 
 ## 说明
 
-刷题所写的文档位于LeetCode文件夹下,大部分是leetcode中国的题，make.py是一个创建md文档的Pyhton脚本（未完成）
+刷题所写的文档位于LeetCode文件夹下,大部分是leetcode中国的题。
 
-## 一览表
+make.py是一个创建md文档的Pyhton脚本（未完成）
+
+## 刷题一览表
 
 |题号|所属标签|第一次完成时间|地点|C++|Java|Python|English|
 |:--:|:-:|:-:|-|:-:|:-:|:-:|:-:|
