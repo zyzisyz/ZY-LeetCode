@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 # MD_text
 text = "# [num. ](url)\n\ndescribe\n\n## 我的思路\n\n## C++\n\n```cpp\n\n```"
 
+
 # url
 Leetcode_CN_Url = "https://leetcode-cn.com/problemset/all/"
 Leetcode_Url = "https://leetcode.com/problemset/all/"
@@ -56,18 +57,18 @@ def Make_MD_File(num, text):
         print(num + "文件夹已经存在...")
     MDPath = LeetCode_Path+num+"/"+num+".md"
     if not os.path.exists(MDPath):
-        MDfile = open(MDPath, 'w')
+        MDfile = open(MDPath, 'w', encoding='utf8')
         text = Make_MD_Text(num)
         MDfile.write(text)
         MDfile.close()
         print(num+".md创建成功")
     else:
         c = input(num+".md已经存在,是否删除？(Y/N)")
-        if(c == "Y" or "y"):
+        if c == "Y" or c == "y":
             os.remove(MDPath)
             c = input("是否重新创建(Y?N)")
-            if(c == "Y"or"y"):
-                MDfile = open(MDPath, 'w')
+            if c == "Y"or c == "y":
+                MDfile = open(MDPath, 'w', encoding='utf8')
                 text = Make_MD_Text(num)
                 MDfile.write(text)
                 MDfile.close()
