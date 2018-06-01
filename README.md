@@ -22,29 +22,3 @@
 ## 说明
 
 刷题所写的文档位于LeetCode文件夹下,点击题号上的链接表中的题号即可查看。**make.py**是一个用于自动创建md文档的Pyhton脚本（*未完成*）。
-
----
-
-## My-VScode-Seting
-
-repo使用vscode编辑
-
-```code
-{
-    "git.enableSmartCommit": true,
-    "files.autoSave": "afterDelay",
-    "editor.fontSize": 17,
-    "explorer.confirmDelete": false,
-    "git.autofetch": true,
-    "git.confirmSync": false,
-
-    // 针对 [c] 语言，配置替代编辑器设置。
-    "[c]":  {"editor.autoIndent": true},
-    // 针对 [cpp] 语言，配置替代编辑器设置。
-    "[cpp]":  {"editor.autoIndent": true},
-    //自动编码
-    "files.autoGuessEncoding": true,
-    // // 在 Markdown 预览中启用或禁用将类似 URL 的文本转换为链接。
-    "markdown.preview.linkify": true,
-}
-```
