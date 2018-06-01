@@ -29,7 +29,7 @@
 
 repo使用vscode编辑
 
-```json
+```code
 {
     "git.enableSmartCommit": true,
     "files.autoSave": "afterDelay",

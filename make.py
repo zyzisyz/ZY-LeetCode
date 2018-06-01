@@ -63,8 +63,15 @@ def Make_MD_File(num, text):
         print(num+".md创建成功")
     else:
         c = input(num+".md已经存在,是否删除？(Y/N)")
-        if(c == "Y"):
+        if(c == "Y" or "y"):
             os.remove(MDPath)
+            c = input("是否重新创建(Y?N)")
+            if(c == "Y"or"y"):
+                MDfile = open(MDPath, 'w')
+                text = Make_MD_Text(num)
+                MDfile.write(text)
+                MDfile.close()
+                print(num+".md创建成功")
         else:
             print(num+"没有被删除")
 
