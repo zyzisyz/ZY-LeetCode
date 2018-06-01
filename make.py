@@ -5,9 +5,11 @@
 import requests
 import os
 from bs4 import BeautifulSoup
+import sys
 
 # MD_text
 text = "# [num. ](url)\n\ndescribe\n\n## 我的思路\n\n## C++\n\n```cpp\n\n```"
+text = text.encode('utf-8')
 
 
 # url
@@ -59,6 +61,7 @@ def Make_MD_File(num, text):
     if not os.path.exists(MDPath):
         MDfile = open(MDPath, 'w', encoding='utf8')
         text = Make_MD_Text(num)
+        text = str(text, encoding="utf-8")
         MDfile.write(text)
         MDfile.close()
         print(num+".md创建成功")
@@ -70,6 +73,7 @@ def Make_MD_File(num, text):
             if c == "Y"or c == "y":
                 MDfile = open(MDPath, 'w', encoding='utf8')
                 text = Make_MD_Text(num)
+                text = str(text, "utf-8")
                 MDfile.write(text)
                 MDfile.close()
                 print(num+".md创建成功")
