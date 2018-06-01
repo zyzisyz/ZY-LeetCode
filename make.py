@@ -6,6 +6,9 @@ import requests
 import os
 from bs4 import BeautifulSoup
 
+# MD_text
+text = "# [num. ](url)\n\ndescribe\n\n## 我的思路\n\n## C++\n\n```cpp\n\n```"
+
 # url
 Leetcode_CN_Url = "https://leetcode-cn.com/problemset/all/"
 Leetcode_Url = "https://leetcode.com/problemset/all/"
@@ -18,6 +21,7 @@ LeetCode_Path = Current_Path+"/LeetCode/"
 
 # 修改num格式
 def NumToString(num):
+    num = int(num)
     if(num < 10):
         return "00"+str(num)
     elif(num < 100):
@@ -31,16 +35,38 @@ def GetProblem(num, url):
     pass
 
 
-# 创建md文档
-def MakeMD(num):
+# 创建MD_text
+def Make_MD_Text(num):
     num = int(num)
+    num = NumToString(num)
+    text = "# ["+num+". ](url)\n\n题目\n\n## 我的思路\n\n## C++\n\n```cpp\n\n```"
+    return text
+
+
+# 创建md文档
+def Make_MD_File(num, text):
+    num = int(num)
+    num = NumToString(num)
     a = ""
-    if not os.path.exists(LeetCode_Path+NumToString(num)):
-        os.mkdir(LeetCode_Path+NumToString(num))
-        print("未找到"+NumToString(num)+"文件夹，" +
-              "已经成功创建了"+NumToString(num)+"文件夹...")
+    if not os.path.exists(LeetCode_Path+num):
+        os.mkdir(LeetCode_Path+num)
+        print("未找到"+num+"文件夹，" +
+              "已经成功创建了"+num+"文件夹...")
     else:
-        print(NumToString(num) + "文件夹已经存在...")
+        print(num + "文件夹已经存在...")
+    MDPath = LeetCode_Path+num+"/"+num+".md"
+    if not os.path.exists(MDPath):
+        MDfile = open(MDPath, 'w')
+        text = Make_MD_Text(num)
+        MDfile.write(text)
+        MDfile.close()
+        print(num+".md创建成功")
+    else:
+        c = input(num+".md已经存在,是否删除？(Y/N)")
+        if(c == "Y"):
+            os.remove(MDPath)
+        else:
+            print(num+"没有被删除")
 
 
 # 修改README.md
@@ -52,8 +78,8 @@ def Update_RDM(num):
 def main():
     os.system("cls")
     print("start!")
-
-    print("\n\nmake complete!")
+    for i in range(1, 601):
+        Make_MD_File(i, text)
 
 
 main()
