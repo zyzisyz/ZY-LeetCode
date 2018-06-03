@@ -10,7 +10,7 @@
 
 |Easy|Medium|Hard|**SUM**|
 |:-:|:-:|:-:|:-:|
-|3|1|0|4|
+|4|2|0|6|
 
 ## 已刷题一览表
 
@@ -21,6 +21,7 @@
 |[002](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/002/002.md)|两数相加|M|2018-5-30||Y|||N|
 |[007](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/007/007.md)|反转整数|E|2018-5-31||Y|||N|
 |[009](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/009/009.md)|回文数|E|2018-6-3||Y|||N|
+|[019](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/019/019.md)|删除链表的倒数第N个节点|M|2018-6-3||Y|||N|
 
 ## 说明
 

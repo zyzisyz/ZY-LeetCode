@@ -59,10 +59,9 @@ def Make_MD_File(num, text):
         print(num + "文件夹已经存在...")
     MDPath = LeetCode_Path+num+"/"+num+".md"
     if not os.path.exists(MDPath):
-        MDfile = open(MDPath, 'wb+')
-        str = Make_MD_Text(num)
-        str.encode("utf-8")
-        MDfile.write(str)
+        MDfile = open(MDPath, 'w')
+        text = Make_MD_Text(num)
+        MDfile.write(text)
         MDfile.close()
         print(num+".md创建成功")
     else:
@@ -71,10 +70,9 @@ def Make_MD_File(num, text):
             os.remove(MDPath)
             c = input("是否重新创建(Y?N)")
             if c == "Y"or c == "y":
-                MDfile = open(MDPath, 'wb+')
-                str = Make_MD_Text(num)
-                str.encode("utf-8")
-                MDfile.write(str)
+                MDfile = open(MDPath, 'w')
+                text = Make_MD_Text(num)
+                MDfile.write(text)
                 MDfile.close()
                 print(num+".md创建成功")
         else:
@@ -90,8 +88,10 @@ def Update_RDM(num):
 def main():
     os.system("cls")
     print("start!")
-    for i in range(1, 601):
-        Make_MD_File(i, text)
+    n = input("请输入要刷的题号：")
+    text = Make_MD_Text(n)
+    Make_MD_File(n, text)
+    print("done!")
 
 
 main()
