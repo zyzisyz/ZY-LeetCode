@@ -59,10 +59,10 @@ def Make_MD_File(num, text):
         print(num + "文件夹已经存在...")
     MDPath = LeetCode_Path+num+"/"+num+".md"
     if not os.path.exists(MDPath):
-        MDfile = open(MDPath, 'w', encoding='utf8')
-        text = Make_MD_Text(num)
-        text = str(text, encoding="utf-8")
-        MDfile.write(text)
+        MDfile = open(MDPath, 'wb+')
+        str = Make_MD_Text(num)
+        str.encode("utf-8")
+        MDfile.write(str)
         MDfile.close()
         print(num+".md创建成功")
     else:
@@ -71,10 +71,10 @@ def Make_MD_File(num, text):
             os.remove(MDPath)
             c = input("是否重新创建(Y?N)")
             if c == "Y"or c == "y":
-                MDfile = open(MDPath, 'w', encoding='utf8')
-                text = Make_MD_Text(num)
-                text = str(text, "utf-8")
-                MDfile.write(text)
+                MDfile = open(MDPath, 'wb+')
+                str = Make_MD_Text(num)
+                str.encode("utf-8")
+                MDfile.write(str)
                 MDfile.close()
                 print(num+".md创建成功")
         else:
