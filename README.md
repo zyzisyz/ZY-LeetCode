@@ -20,7 +20,7 @@
 |[001](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/001/001.md)|两数之和|E|2018-5-29||Y|||N|
 |[002](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/002/002.md)|两数相加|M|2018-5-30||Y|||N|
 |[007](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/007/007.md)|反转整数|E|2018-5-31||Y|||N|
-|[007](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/009/009.md)|回文数|E|2018-6-3||Y|||N|
+|[009](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/009/009.md)|回文数|E|2018-6-3||Y|||N|
 
 ## 说明
 
