@@ -10,18 +10,19 @@
 
 |Easy|Medium|Hard|**SUM**|
 |:-:|:-:|:-:|:-:|
-|4|2|0|6|
+|5|2|0|7|
 
 ## 已刷题一览表
 
-|题号|题目名称|难度|第一次完成时间|地点|C++|Java|Python|English|
+|题号|题目名称|难度|第一次完成时间|地点|C++|C|Java|Python|
 |:--:|:-:|:-:|:-:|-|:-:|:-:|:-:|:-:|
-|[561](https://github.com/zyzisyz/ZY-LeetCode/blob/master/LeetCode/561/561.md)|数组拆分 I|E|2018-3-16|北京|Y|||Y|
-|[001](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/001/001.md)|两数之和|E|2018-5-29||Y|||N|
-|[002](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/002/002.md)|两数相加|M|2018-5-30||Y|||N|
-|[007](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/007/007.md)|反转整数|E|2018-5-31||Y|||N|
-|[009](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/009/009.md)|回文数|E|2018-6-3||Y|||N|
-|[019](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/019/019.md)|删除链表的倒数第N个节点|M|2018-6-3||Y|||N|
+|[561](https://github.com/zyzisyz/ZY-LeetCode/blob/master/LeetCode/561/561.md)|数组拆分 I|E|2018-3-16|北京|Y||||
+|[001](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/001/001.md)|两数之和|E|2018-5-29||Y||||
+|[002](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/002/002.md)|两数相加|M|2018-5-30||Y||||
+|[007](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/007/007.md)|反转整数|E|2018-5-31||Y||||
+|[009](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/009/009.md)|回文数|E|2018-6-3||Y||||
+|[019](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/019/019.md)|删除链表的倒数第N个节点|M|2018-6-3||Y||||
+|[021](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/021/021.md)|合并两个有序链表|E|2018-6-5||Y||||
 
 ## 说明
 
