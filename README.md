@@ -1,4 +1,4 @@
-# Zhang Yang's solutions for leetcode
+# Zhang Yang's solutions for LeetCode
 
 张阳的leetcode-cn题解记录
 
