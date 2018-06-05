@@ -1,6 +1,6 @@
-.exe
-.pdf
-format.cpp
-.c
-.java
-.so
+*.exe
+*.pdf
+*.cpp
+*.c
+*.java
+*.so
