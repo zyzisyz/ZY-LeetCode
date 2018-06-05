@@ -42,7 +42,11 @@ def GetProblem(num, url):
 def Make_MD_Text(num):
     num = int(num)
     num = NumToString(num)
-    text = "# ["+num+". ](url)\n\n题目\n\n## 我的思路\n\n## C++\n\n```cpp\n\n```"
+    text = "# ["+num+". ](url)\n\ntext\n\n## 我的思路\n\n" +\
+        "## C++\n\n```cpp\n\n```\n\n" +\
+        "## C\n\n```C\n\n```\n\n" +\
+        "## Python\n\n```Python\n\n```\n\n" +\
+        "## Java\n\n```Java\n\n```"
     return text
 
 
