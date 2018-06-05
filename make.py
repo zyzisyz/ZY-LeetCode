@@ -7,11 +7,6 @@ import os
 from bs4 import BeautifulSoup
 import sys
 
-# MD_text
-text = "# [num. ](url)\n\ndescribe\n\n## 我的思路\n\n## C++\n\n```cpp\n\n```"
-text = text.encode('utf-8')
-
-
 # url
 Leetcode_CN_Url = "https://leetcode-cn.com/problemset/all/"
 Leetcode_Url = "https://leetcode.com/problemset/all/"
