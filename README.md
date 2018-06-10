@@ -27,7 +27,6 @@
 |[050](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/050/050.md)|Pow(x, n)|M|2018-6-7|北京|Y||||
 |[003](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/003/003.md)|无重复字符的最长子串|M|2018-6-7|北京|Y||||
 
-
 ## 说明
 
 刷题所写的文档位于LeetCode文件夹下,点击题号上的链接表中的题号即可查看。**make.py**是一个用于自动创建md文档的Pyhton脚本（*未完成*）。
