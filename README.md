@@ -6,6 +6,10 @@
 
 结束于：--,--
 
+## 常用算法
+
+1. [快排---QiuckSort](https://github.com/zyzisyz/ZY-LeetCode/blob/master/algorithm/QiuckSort.md)
+
 ## 统计
 
 |Easy|Medium|Hard|**SUM**|
