@@ -9,6 +9,7 @@
 ## 常用算法
 
 1. [快排---QiuckSort](https://github.com/zyzisyz/ZY-LeetCode/blob/master/algorithm/QiuckSort.md)
+2. [动态规划]()
 
 ## 统计
 
