@@ -15,7 +15,7 @@
 
 |Easy|Medium|Hard|**SUM**|
 |:-:|:-:|:-:|:-:|
-|6|4|1|11|
+|6|5|1|11|
 
 ## 已刷题一览表
 
@@ -32,6 +32,7 @@
 |[050](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/050/050.md)|Pow(x, n)|M|2018-6-7|北京|Y||||
 |[003](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/003/003.md)|无重复字符的最长子串|M|2018-6-10|北京|Y||||
 |[026](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/026/026.md)|删除排序数组中的重复项|E|2018-6-13|北京|Y||||
+|[008](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/008/008.md)|字符串转整数|E|2018-6-15|北京|Y||||
 
 ## 说明
 
