@@ -9,13 +9,13 @@
 ## 常用算法
 
 1. [快排---QiuckSort](https://github.com/zyzisyz/ZY-LeetCode/blob/master/algorithm/QiuckSort.md)
-2. [动态规划]()
+2. [动态规划](https://)
 
 ## 统计
 
 |Easy|Medium|Hard|**SUM**|
 |:-:|:-:|:-:|:-:|
-|7|5|1|12|
+|8|5|1|14|
 
 ## 已刷题一览表
 
@@ -32,8 +32,9 @@
 |[050](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/050/050.md)|Pow(x, n)|M|2018-6-7|北京|Y||||
 |[003](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/003/003.md)|无重复字符的最长子串|M|2018-6-10|北京|Y||||
 |[026](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/026/026.md)|删除排序数组中的重复项|E|2018-6-13|北京|Y||||
-|[008](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/008/008.md)|字符串转整数|E|2018-6-15|北京|Y||||
-|[020](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/020/020.md)|有效的括号|M|2018-6-15|北京|Y||||
+|[008](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/008/008.md)|字符串转整数|M|2018-6-15|北京|Y||||
+|[020](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/020/020.md)|有效的括号|E|2018-6-15|北京|Y||||
+|[027](https://github.com/zyzisyz/ZY-LeetCode/tree/master/LeetCode/027/027.md)|移除元素|E|2018-6-15|北京|Y||||
 
 ## 说明
 
